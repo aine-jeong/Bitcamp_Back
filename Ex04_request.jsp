@@ -30,7 +30,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	산진 메롱<br>
 	id: <%=id %> <hr>
 	접속한 클라이언트 IP: <%= request.getRemoteAddr() %> <hr>
 	서버에 요청한 인코딩 방식: <%= request.getCharacterEncoding() %> <hr>
